@@ -1,13 +1,13 @@
 {
-  "name": "node-server-testing",
+  "name": "Get_yutube_Subscribers",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the backend project",
   "main": "index.js",
   "scripts": {
     "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
     "start": "nodemon src/index.js"
   },
-  "author": "",
+  "author": "Sushant Kumbhar",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
