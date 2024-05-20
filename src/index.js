@@ -23,10 +23,10 @@ app.use("*", (req, res) => {
 });
 
 // Start Server
-// const PORT = process.env.PORT || 3000;''
-// app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
+const PORT = process.env.PORT || 3000;''
+app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 
 //Use this while testing
-module.exports = app.listen(port, () =>
-  console.log(`App listening on port ${port}!`)
-); 
+// module.exports = app.listen(port, () =>
+//   console.log(`App listening on port ${port}!`)
+// ); 
