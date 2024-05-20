@@ -18,7 +18,8 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-       background-color: aliceblue;
+        background: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #7f7fd5);
+
         font-family: Arial, Helvetica, sans-serif;
       }
 
@@ -38,12 +39,31 @@
         
       }
 
+      .alma{
+        color: rgb(207, 13, 13);
+     
+        font-weight: 600;
+        
+      }
+
+
       .upper_part{
         text-align: center;
       }
 
       .links{
         line-height: 1.5; 
+      }
+
+      .link{
+        background-color: rgb(148, 162, 222);
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: #212124;
+        border-radius: 5px;
+        font-size: larger;
       }
      </style>
     
@@ -54,7 +74,7 @@
     <div id="main"  >
       <div class="upper_part">
       <h1 >
-        <span style="color: rgb(255, 32, 32); font-size: xx-large;">AlmaBetter's</span> Backend Project of Get YouTube Subscribers is developed by
+        <span class="alma" >AlmaBetter's</span> Backend Project of Get YouTube Subscribers is developed by
         <i
           ><a
             
@@ -76,19 +96,19 @@
 
       <ul class="links">
         <li>
-          Add <a   href="/subscribers">/subscribers</a> in URL :
+          Add <a class="link"  href="/subscribers">/subscribers</a> in URL :
           It provides an array of subscribers
         </li>
 
         <li>
           Add
-          <a   href="/subscribers/names">/subscribers/names</a> in
+          <a class="link"  href="/subscribers/names">/subscribers/names</a> in
           URL : This provides an array of name and subscribed channel name of subscribers.
         </li>
 
         <li>
           Add
-          <a   href="/subscribers/664a2eb833b0a34fecf9be23" 
+          <a class="link"  href="/subscribers/664a2eb833b0a34fecf9be23" 
             >/subscribers/:id</a
           >
           in URL: It provides a subscriber with the given id.
