@@ -2,6 +2,7 @@ const express = require('express')
 const app = require('./app.js')
 const mongoose = require('mongoose')
 const port=3000
+// env data is imported
 require("dotenv").config();
 
 // Parse JSON bodies (as sent by API clients)
@@ -23,7 +24,7 @@ app.use("*", (req, res) => {
 });
 
 // Start Server
-const PORT = process.env.PORT || 3000;''
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 
 //Use this while testing

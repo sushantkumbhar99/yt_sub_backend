@@ -31,6 +31,7 @@ describe('Subscribers API', () => {
         });
     });
   });
+  
   // Test for the GET /subscribers/names endpoint
   describe('GET /subscribers/names', () => {
     it('should get names and subscribed channels for each subscriber', (done) => {
