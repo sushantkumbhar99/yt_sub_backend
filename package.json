@@ -4,8 +4,8 @@
   "description": "This is the backend project",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
-    "start": "nodemon src/index.js"
+    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
+    
   },
   "author": "Sushant Kumbhar",
   "license": "ISC",
